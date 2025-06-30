@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index page</title>
+  <link rel="stylesheet" href="/CSS/index.css">
+</head>
+<body>
+  <div class="index-container">
+    <h2>Register</h2>
+    <p>Username</p>
+    <input type="text" id="username" />
+    
+    <p>Email</p>
+    <input type="email" id="email" />
+    
+    <p>Password</p>
+    <input type="password" id="password" />
+    
+    <p>Phone Number</p>
+    <input type="tel" id="phone" />
+    
+    <p>Gender</p>
+    <select id="gender">
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    
+    <br><br>
+    <button onclick="register()">Create</button>
+    <p>Already have account? <a href="login.html">Sign in</a></p>
+  </div>
+  <script src="/Js/index.js"></script>
+</body>
+</html>
